@@ -1,0 +1,53 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #31572c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.players{
+    display: flex;
+    margin: 10px;
+    
+}
+
+.card {
+    border: 1px solid black;
+    width: 65px;
+    height: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 5px;
+    background: white;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 6px;
+    padding: 3px;
+}
+
+.clubs{
+    background-image: url("cards_img/clubs.png");    
+}
+.diamonds{
+    background-image: url("cards_img/diamonds.png");   
+    color: red;
+}
+.hearts{
+    background-image: url("cards_img/hearts.png");    
+    color: red;
+    
+}
+.spades{
+    background-image: url("cards_img/spades.png");    
+}
+.upside-card{
+    opacity: 0;
+}
+
+h2{
+    color: white;
+    margin-left: 10px;
+    margin-top: 0px;
+    transform: translateY(45%)    
+}
