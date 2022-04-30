@@ -165,10 +165,6 @@ function checkTurn(){
     }
 }
 
-function swapCards(card1, card2){
-    console.log("clicked")
-}
-
 // Create new card
 newCardBtn.addEventListener("click", ()=>{
     if(cardsDeck.length>0){
